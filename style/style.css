@@ -1,0 +1,195 @@
+html * {
+	margin : 0;
+	padding: 0;
+}
+#banniere{
+	margin-left:0px;
+	margin-right:0px;
+	text-align:center;
+	background:white url(../Images/banner.jpg) no-repeat center center;
+	width:auto;
+	height: 400px;
+					
+}
+body {
+	
+	width: 100%;
+	background-color: #f2e9de;
+}
+
+/*************************GENERAL************************************************************/
+header{
+	background-color: #f2e9de;
+	height: 150px;
+	width: 1349px;
+	margin: auto auto auto auto;
+}
+
+header img {
+	margin-left: 20px;
+	margin-top: 15px;	
+	position: absolute;
+}
+header h1{
+	
+	font: 15px Times, sans-serif;
+	margin-left: 490px;
+	font-size:100px;
+	color: #f2e9de;
+}
+
+/***********************************HEADER*****************************************************/
+nav {
+	background-color: #7C0000;
+	width           : 1349px;
+	height          : 40px;
+	margin: 250px auto auto auto;
+}
+
+nav ul{
+	font: 15px Times, sans-serif;
+	margin: auto auto auto 420px;
+}
+
+nav a {
+	display        : inline-block;
+	height         : 100%;
+	color: #f2e9de;
+	text-decoration: none;
+
+
+}
+
+a{
+	text-decoration: none;
+	color:#7C0000;
+}
+nav ul li {
+	height      : 100%;
+	line-height : 40px;
+	padding     : 0 20px;
+	border-right: solid 2px #D0CFD2;
+	border-left: solid 2px #D0CFD2;
+	list-style  : none;
+}
+
+nav a:hover{
+	background-color: rgba(183, 179, 168, 0.95);
+}
+
+/************************************************NAV*********************************************/
+
+#corp, #connexion, #connecté{
+		
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  
+  width: 800px;
+  margin: auto 22% auto 20%;
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-bottom: 0px;
+  padding-left: 15px;
+  border-top-width: 3px;
+  border-right-width: 3px;
+  border-bottom-width: 3px;
+  border-left-width: 3px;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: solid;
+  border-left-style: solid;
+  border-top-color: #7C0000;
+  border-right-color: #7C0000;
+  border-bottom-color: #7C0000;
+  border-left-color: #7C0000;
+  border-image-source: none;
+  border-image-slice: 100% 100% 100% 100%;
+  border-image-width: 1 1 1 1;
+  border-image-outset: 0 0 0 0;
+  border-image-repeat: stretch stretch;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: #f2e9de;
+  background-image: url("images/fondAccueil.png");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: 0% 0%;
+  background-clip: border-box;
+  background-origin: padding-box;
+  background-size: auto auto;
+}
+
+
+
+footer{
+	background-color: #7C0000;
+	width: 1349px;
+	height: 50px;
+	margin: 20% auto auto auto;
+}
+/*****************************************Formulaire*******************************************/
+
+fieldset {
+  margin-bottom: 15px;
+  padding: 10px;
+}
+ 
+legend {
+  padding: 0px 3px;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+ 
+label, #Changer_mdp{
+  width: 110px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 6px;
+}
+
+#Changer_mdp{
+	width: 210px;
+}
+ 
+ 
+ 
+input[type=submit] {
+  width: 150px;
+  padding: 5px;
+}
+
+
+/*******************************Flux************************************************************/
+
+#position
+{
+	margin: 4% auto auto 30%;
+}
+
+/******************************Test*************************************************************/
+#connexion, #connecté
+{
+  
+  height: 139px;
+
+  margin-left: 50px;
+  margin-top: 200px;
+  
+  position: absolute;
+  
+  width: 438px;
+  z-index: 50;
+  
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+#connecté
+{
+	height: 90px;
+	width: 200px;
+	margin-top: 250px;
+}
